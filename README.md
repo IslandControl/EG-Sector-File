@@ -24,13 +24,18 @@ Ground layouts can be created by anyone simply by using Google Earth's polygon a
 
 Create each feature of the airport individually in the following order, first = lowest:
 
-+ Boundary/grass outline - emcompass the entire airfield with this
-+ Aprons
++ Boundary/grass outline - (encompass the entire airfield with this)
 + Parking positions
 + Taxiways
 + Runways
++ Aprons
++ Buildings
+These Polygon drawings create the TFL file
+
++ Stands lines
 + Taxiway lines
 + Stop bar lines
+The create the GEO file
 
 You do not need to add taxiway or holding point labels.
 
