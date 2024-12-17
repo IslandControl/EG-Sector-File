@@ -76,6 +76,10 @@ F;eg-nav\egxx-military-matz-atz.airspace
 F;eg-nav\egxx-high-sectors.artcc
 F;eg-nav\egxx-low-sectors.artcc
 
+[MVAENR]
+F;eg-nav\00DB.mva
+F;eg-nav\00IC.mva
+
 [GEO]
 F;eg-nav\egxx-coastline.geo
 //F;eg-nav\egxx-tma-cta-ctr.geo
