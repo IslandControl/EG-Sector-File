@@ -19,8 +19,12 @@ CTA;#323232;
 TMA;#323232;
 TAXIBLUE;#00A2FF;
 TAXIORANGE;#E16535;
-foreignatc;#213546;
+foreignatc;#0C0C0C;
+localatc;#0C0C0C;
+radaratc;#030303;
 APRON;#464646;
+COAST;#252E39;
+
 
 [ATIS]
 F;egxx.atis
@@ -75,10 +79,6 @@ F;eg-nav\egxx-military-matz-atz.airspace
 [ARTCC]
 F;eg-nav\egxx-high-sectors.artcc
 F;eg-nav\egxx-low-sectors.artcc
-
-[MVAENR]
-F;eg-nav\00DB.mva
-F;eg-nav\00IC.mva
 
 [GEO]
 F;eg-nav\egxx-coastline.geo
@@ -170,12 +170,15 @@ F;egtt\airfield-layouts\EGSY.geo
 F;egtt\airfield-layouts\EGFH.geo
 
 [FILLCOLOR]
+F;eg-atc\coast.plf
+F;eg-atc\eg-foreign-atc.plf
 F;eg-atc\egpx-m-ctr.plf
 F;eg-atc\egtt-c-ctr.plf
 F;eg-atc\egtt-n-ctr.plf
 F;eg-atc\egtt-s-ctr.plf
 F;eg-atc\egtt-w-ctr.plf
 F;eg-atc\egpx-ctr.plf
+F;eg-atc\shaded-rma.plf
 F;egtt\airfield-layouts\EGBO.plf
 F;egtt\airfield-layouts\EGKA.plf
 F;egpx\airfield-layouts\EGPC.plf
@@ -191,8 +194,7 @@ F;eg-military\airfield-layouts\EGWU.plf
 F;eg-military\airfield-layouts\EGXC.plf
 F;eg-military\airfield-layouts\EGYD.plf
 F;eg-military\airfield-layouts\EGYM.plf
-F;eg-atc\eg-foreign-atc.plf
-F;eg-atc\shaded-rma.plf
+
 
 
 [PROFILE]
